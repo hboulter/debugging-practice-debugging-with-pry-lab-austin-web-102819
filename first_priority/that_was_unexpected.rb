@@ -20,7 +20,7 @@ end
   end
 
   def ballin_candy_lover?
-    if @candy_lover == true && basketball_player
+    if likes_candy && basketball_player
       "Aw sweet, this cat loves them some candy!"
     else
       10.times do
