@@ -24,6 +24,7 @@ end
   def ballin_candy_lover?
     if likes_candy && basketball_player
       "Aw sweet, this cat loves them some candy!"
+      binding.pry
     else
       10.times do
         "not a ballin candy lover"
